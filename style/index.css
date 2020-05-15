@@ -19,17 +19,16 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 } */
+html{
+    font-size: 62.5%;
+}
+
 body{
     margin: 0 auto;
     max-width: 1000px;
     background-image: url('https://static.vecteezy.com/system/resources/previews/000/543/898/non_2x/blockchain-technology-fintech-cryptocurrency-block-chain-server-abstract-background-linked-block-contain-cryptography-hash-and-transaction-data-new-futuristic-system-technology-vector-illustration.jpg');
     background-size: auto;
     font-family: 'Roboto', cursive;
-}
-
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
 }
 
 header {
@@ -45,21 +44,25 @@ header {
     border-radius: 10px; 
     background-position: 0px 0px;
 	background-repeat: repeat-x;
-	animation: animatedBackground 40s linear infinite; 
-}
-
-h1 {
-    color: white;
+    animation: animatedBackground 40s linear infinite; 
+    font-size: 2.5rem;
 }
 
 img{
     border-radius: 10px;
-    margin: 20px;
+    margin: 30px;
   }
 
-.content{
-    display:flex;
-    flex-direction: row-reverse;
+div {
+    margin: 10px;
+    padding: 3px;
+    border: 0.5px;
+    border-style: solid;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    background-color: rgba(5, 44, 44, 0.7);
+    font-size: 18px;
+    color: white;
 }
 
 .projects {
@@ -74,20 +77,25 @@ img{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-   
 }
 
-
-div {
-    margin: 10px;
-    padding: 3px;
-    border: 0.5px;
-    border-style: solid;
-    box-sizing: border-box; 
-    border-radius: 10px;
-    background-color: rgba(5, 44, 44, 0.7);
-    font-size: 18px;
+h1 {
     color: white;
+}
+
+.buttons {
+    background-color: rgba(26, 168, 168, 0.9);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.content{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.content-raw{
+    padding: 20px;
 }
 
 a {
@@ -100,6 +108,7 @@ a {
     background-color:  rgba(26, 168, 168, 0.5);
     color: whitesmoke;
     text-decoration-color: rgba(32, 44, 148, 0.3);
+    font-size: 1.2rem;
 }
 
 a:hover {
@@ -121,6 +130,59 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+footer .contactme {
+    background-color: rgb(226, 85, 61);
+    color: white;
+    border-radius: 5px;
+}
+
+
+@media(max-width: 800px) {
+    body {
+        background-image: url('https://www.desktopbackground.org/p/2012/03/16/359630_multicolor-abstract-lights-disco-background-square-pixel-mosaic_800x604_h.jpg')
+    }
+    img{
+        border-radius: 30px;
+        margin: 15px;
+        max-width: 90%;
+        min-width: 150px;
+        height: auto;
+      }
+      h2{
+          font-size: 2.1rem;
+      }
+    p{
+        font-size: 1.5rem;
+    }
+ } 
+
+ @media(max-width: 500px) {
+    
+    img{
+        border-radius: 60px;
+        margin: 7px;
+        max-width: 90%;
+        min-width: 150px;
+        height: auto;
+      }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+
+ } 
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+
+
 
 
 
