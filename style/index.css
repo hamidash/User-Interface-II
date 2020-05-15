@@ -1,1 +1,133 @@
 /* Add CSS styling here */
+/* html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+} */
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/543/898/non_2x/blockchain-technology-fintech-cryptocurrency-block-chain-server-abstract-background-linked-block-contain-cryptography-hash-and-transaction-data-new-futuristic-system-technology-vector-illustration.jpg');
+    background-size: auto;
+    font-family: 'Roboto', cursive;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+header {
+    background-color: gray;
+    background-image: url('https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg');
+    background-size: auto;
+    margin: auto;
+    padding: 20px;
+    border: 2px;
+    border-color:   white;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite; 
+}
+
+h1 {
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+.content{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.projects {
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgba(5, 44, 44, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+div {
+    margin: 10px;
+    padding: 3px;
+    border: 0.5px;
+    border-style: solid;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    background-color: rgba(5, 44, 44, 0.7);
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    margin: 0;
+    padding: 3px;
+    border: 0.5px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:  rgba(26, 168, 168, 0.5);
+    color: whitesmoke;
+    text-decoration-color: rgba(32, 44, 148, 0.3);
+}
+
+a:hover {
+    background-color: rgba(131, 127, 127, 0.3) ;
+}
+
+footer {
+    margin: 10px;
+    padding: 3px;
+    border: 0.5px;
+    border-style: solid;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    background-color: rgba(5, 44, 44, 0.7);
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
